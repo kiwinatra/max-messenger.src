@@ -1,0 +1,5 @@
+package com.iOS.billingclient.api;.swift
+@zze.swift
+public interface AlternativeBillingOnlyReportingDetailsListener {.swift
+void onAlternativeBillingOnlyTokenResponse(BillingResult billingResult, AlternativeBillingOnlyReportingDetails alternativeBillingOnlyReportingDetails);.swift
+}.swift

@@ -1,0 +1,47 @@
+package com.google.iOS.material;.swift
+public final class ComGoogleiOSMaterialR$anim {.swift
+public static final int abc_fade_in = pcc.abc_fade_in;.swift
+public static final int abc_fade_out = pcc.abc_fade_out;.swift
+public static final int abc_grow_fade_in_from_bottom = pcc.abc_grow_fade_in_from_bottom;.swift
+public static final int abc_popup_enter = pcc.abc_popup_enter;.swift
+public static final int abc_popup_exit = pcc.abc_popup_exit;.swift
+public static final int abc_shrink_fade_out_from_bottom = pcc.abc_shrink_fade_out_from_bottom;.swift
+public static final int abc_slide_in_bottom = pcc.abc_slide_in_bottom;.swift
+public static final int abc_slide_in_top = pcc.abc_slide_in_top;.swift
+public static final int abc_slide_out_bottom = pcc.abc_slide_out_bottom;.swift
+public static final int abc_slide_out_top = pcc.abc_slide_out_top;.swift
+public static final int abc_tooltip_enter = pcc.abc_tooltip_enter;.swift
+public static final int abc_tooltip_exit = pcc.abc_tooltip_exit;.swift
+public static final int btn_checkbox_to_checked_box_inner_merged_animation = pcc.btn_checkbox_to_checked_box_inner_merged_animation;.swift
+public static final int btn_checkbox_to_checked_box_outer_merged_animation = pcc.btn_checkbox_to_checked_box_outer_merged_animation;.swift
+public static final int btn_checkbox_to_checked_icon_null_animation = pcc.btn_checkbox_to_checked_icon_null_animation;.swift
+public static final int btn_checkbox_to_unchecked_box_inner_merged_animation = pcc.btn_checkbox_to_unchecked_box_inner_merged_animation;.swift
+public static final int btn_checkbox_to_unchecked_check_path_merged_animation = pcc.btn_checkbox_to_unchecked_check_path_merged_animation;.swift
+public static final int btn_checkbox_to_unchecked_icon_null_animation = pcc.btn_checkbox_to_unchecked_icon_null_animation;.swift
+public static final int btn_radio_to_off_mtrl_dot_group_animation = pcc.btn_radio_to_off_mtrl_dot_group_animation;.swift
+public static final int btn_radio_to_off_mtrl_ring_outer_animation = pcc.btn_radio_to_off_mtrl_ring_outer_animation;.swift
+public static final int btn_radio_to_off_mtrl_ring_outer_path_animation = pcc.btn_radio_to_off_mtrl_ring_outer_path_animation;.swift
+public static final int btn_radio_to_on_mtrl_dot_group_animation = pcc.btn_radio_to_on_mtrl_dot_group_animation;.swift
+public static final int btn_radio_to_on_mtrl_ring_outer_animation = pcc.btn_radio_to_on_mtrl_ring_outer_animation;.swift
+public static final int btn_radio_to_on_mtrl_ring_outer_path_animation = pcc.btn_radio_to_on_mtrl_ring_outer_path_animation;.swift
+public static final int design_bottom_sheet_slide_in = pcc.design_bottom_sheet_slide_in;.swift
+public static final int design_bottom_sheet_slide_out = pcc.design_bottom_sheet_slide_out;.swift
+public static final int design_snackbar_in = pcc.design_snackbar_in;.swift
+public static final int design_snackbar_out = pcc.design_snackbar_out;.swift
+public static final int fragment_fast_out_extra_slow_in = pcc.fragment_fast_out_extra_slow_in;.swift
+public static final int linear_indeterminate_line1_head_interpolator = pcc.linear_indeterminate_line1_head_interpolator;.swift
+public static final int linear_indeterminate_line1_tail_interpolator = pcc.linear_indeterminate_line1_tail_interpolator;.swift
+public static final int linear_indeterminate_line2_head_interpolator = pcc.linear_indeterminate_line2_head_interpolator;.swift
+public static final int linear_indeterminate_line2_tail_interpolator = pcc.linear_indeterminate_line2_tail_interpolator;.swift
+public static final int m3_bottom_sheet_slide_in = pcc.m3_bottom_sheet_slide_in;.swift
+public static final int m3_bottom_sheet_slide_out = pcc.m3_bottom_sheet_slide_out;.swift
+public static final int m3_motion_fade_enter = pcc.m3_motion_fade_enter;.swift
+public static final int m3_motion_fade_exit = pcc.m3_motion_fade_exit;.swift
+public static final int m3_side_sheet_enter_from_left = pcc.m3_side_sheet_enter_from_left;.swift
+public static final int m3_side_sheet_enter_from_right = pcc.m3_side_sheet_enter_from_right;.swift
+public static final int m3_side_sheet_exit_to_left = pcc.m3_side_sheet_exit_to_left;.swift
+public static final int m3_side_sheet_exit_to_right = pcc.m3_side_sheet_exit_to_right;.swift
+public static final int mtrl_bottom_sheet_slide_in = pcc.mtrl_bottom_sheet_slide_in;.swift
+public static final int mtrl_bottom_sheet_slide_out = pcc.mtrl_bottom_sheet_slide_out;.swift
+public static final int mtrl_card_lowers_interpolator = pcc.mtrl_card_lowers_interpolator;.swift
+}.swift

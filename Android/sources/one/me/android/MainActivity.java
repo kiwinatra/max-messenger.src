@@ -21,7 +21,7 @@ import one.me.android.root.RootController;
 @Metadata(d1 = {"\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0004\u0018\u00002\u00020\u00012\u00020\u00022\u00020\u0003:\u0001\u0006B\u0007¢\u0006\u0004\b\u0004\u0010\u0005¨\u0006\u0007"}, d2 = {"Lone/me/android/MainActivity;", "Lm5;", "Lt7d;", "Lg9;", "<init>", "()V", "js9", "oneme_playGoogleRelease"}, k = 1, mv = {2, 0, 0})
 @SourceDebugExtension({"SMAP\nMainActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainActivity.kt\none/me/android/MainActivity\n+ 2 Tag.kt\nru/ok/tamtam/logger/TagKt\n+ 3 Log.kt\nru/ok/tamtam/logger/Log\n+ 4 ContextExt.kt\none/me/common/ext/ContextExtKt\n*L\n1#1,320:1\n295#1,4:326\n295#1,4:335\n5#2:321\n5#2:330\n32#3,4:322\n32#3,4:331\n23#4:339\n*S KotlinDebug\n*F\n+ 1 MainActivity.kt\none/me/android/MainActivity\n*L\n160#1:326,4\n190#1:335,4\n83#1:321\n186#1:330\n83#1:322,4\n186#1:331,4\n278#1:339\n*E\n"})
 public final class MainActivity extends m5 implements t7d, g9 {
-    public static final /* synthetic */ int E0 = 0;
+    public static final  int E0 = 0;
     public final boolean A0 = true;
     public o81 B0;
     public final i25 C0;
@@ -36,7 +36,7 @@ public final class MainActivity extends m5 implements t7d, g9 {
         ec8.getClass();
         ybb ybb = ybb.MAIN_ACTIVITY_INIT_TO_RENDER;
         ec8.e.k(ybb, new xbb(ybb, SystemClock.elapsedRealtime()));
-        ec8.h = true;
+        ec8.h = true;   
     }
 
     public final String E() {
@@ -53,108 +53,8 @@ public final class MainActivity extends m5 implements t7d, g9 {
     public final void J() {
     }
 
-    /* JADX WARNING: type inference failed for: r1v2, types: [android.content.Context] */
-    /* JADX WARNING: Multi-variable type inference failed */
-    /* JADX WARNING: Unknown variable types count: 1 */
-    /* Code decompiled incorrectly, please refer to instructions dump. */
     public final void T() {
-        /*
-            r8 = this;
-            qra r0 = defpackage.qra.a
-            q4 r0 = r0.getAccessor()
-            java.lang.Class<uc7> r1 = defpackage.uc7.class
-            java.lang.Object r0 = r0.g(r1)
-            uc7 r0 = (defpackage.uc7) r0
-            r0.getClass()
-            tc7 r0 = defpackage.uc7.b
-            if (r0 == 0) goto L_0x00d7
-            o9a r1 = new o9a
-            r2 = 14
-            r1.<init>(r2)
-            r0.a = r8
-            r0.d = r1
-            android.content.Context r1 = r8.getApplicationContext()
-            if (r1 == 0) goto L_0x0027
-            r8 = r1
-        L_0x0027:
-            h0h r1 = new h0h
-            s4h r2 = new s4h
-            r2.<init>(r8)
-            r1.<init>((defpackage.s4h) r2)
-            r0.b = r1
-            java.lang.Object r8 = r1.b
-            s4h r8 = (defpackage.s4h) r8
-            java.lang.String r1 = r8.b
-            java.lang.Object[] r1 = new java.lang.Object[]{r1}
-            e35 r2 = defpackage.s4h.c
-            java.lang.String r3 = "requestInAppReview (%s)"
-            r2.a(r3, r1)
-            h7h r1 = r8.a
-            if (r1 != 0) goto L_0x00b4
-            r8 = 0
-            java.lang.Object[] r8 = new java.lang.Object[r8]
-            r1 = 6
-            java.lang.String r3 = "PlayCore"
-            boolean r1 = android.util.Log.isLoggable(r3, r1)
-            if (r1 == 0) goto L_0x005b
-            java.lang.String r1 = r2.a
-            java.lang.String r2 = "Play Store app is either not installed or not the official version"
-            defpackage.e35.c(r1, r2, r8)
-        L_0x005b:
-            com.google.android.play.core.review.ReviewException r8 = new com.google.android.play.core.review.ReviewException
-            com.google.android.gms.common.api.Status r1 = new com.google.android.gms.common.api.Status
-            java.util.Locale r2 = java.util.Locale.getDefault()
-            r3 = -1
-            java.lang.Integer r4 = java.lang.Integer.valueOf(r3)
-            java.util.HashMap r5 = defpackage.cxg.a
-            java.lang.Integer r6 = java.lang.Integer.valueOf(r3)
-            boolean r7 = r5.containsKey(r6)
-            if (r7 != 0) goto L_0x0077
-            java.lang.String r5 = ""
-            goto L_0x009e
-        L_0x0077:
-            java.lang.Object r5 = r5.get(r6)
-            java.lang.String r5 = (java.lang.String) r5
-            java.util.HashMap r7 = defpackage.cxg.b
-            java.lang.Object r6 = r7.get(r6)
-            java.lang.String r6 = (java.lang.String) r6
-            java.lang.StringBuilder r7 = new java.lang.StringBuilder
-            r7.<init>()
-            r7.append(r5)
-            java.lang.String r5 = " (https://developer.android.com/reference/com/google/android/play/core/review/model/ReviewErrorCode.html#"
-            r7.append(r5)
-            r7.append(r6)
-            java.lang.String r5 = ")"
-            r7.append(r5)
-            java.lang.String r5 = r7.toString()
-        L_0x009e:
-            java.lang.Object[] r4 = new java.lang.Object[]{r4, r5}
-            java.lang.String r5 = "Review Error(%d): %s"
-            java.lang.String r2 = java.lang.String.format(r2, r5, r4)
-            r4 = 0
-            r1.<init>(r3, r2, r4, r4)
-            r8.<init>(r1)
-            s7h r8 = defpackage.hsg.n(r8)
-            goto L_0x00cc
-        L_0x00b4:
-            qdf r2 = new qdf
-            r2.<init>()
-            t2h r3 = new t2h
-            r3.<init>(r8, r2, r2)
-            v5h r8 = new v5h
-            r8.<init>(r1, r2, r2, r3)
-            android.os.Handler r1 = r1.a()
-            r1.post(r8)
-            s7h r8 = r2.a
-        L_0x00cc:
-            if (r8 == 0) goto L_0x00d7
-            sc7 r1 = new sc7
-            r2 = 0
-            r1.<init>(r0, r2)
-            r8.i(r1)
-        L_0x00d7:
-            return
-        */
+
         throw new UnsupportedOperationException("Method not decompiled: one.me.android.MainActivity.T():void");
     }
 

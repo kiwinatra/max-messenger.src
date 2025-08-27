@@ -1,0 +1,12 @@
+platform :ios, 'any'
+target 'MAX' do
+  use_frameworks!
+  pod 'Alamofire'
+  pod 'Firebase'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Messaging'
+  pod 'Firebase/RemoteConfig'
+end

@@ -1,0 +1,25 @@
+{
+    "name": "max-messenger-backend",
+    "private": true,
+    "version": "1.4.3",
+    "description": "Backend for MAX messenger",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "node src/app.js",
+      "dev": "nodemon src/app.js",
+      "test": "jest"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "socket.io": "^4.7.2",
+      "mongoose": "^7.5.0",
+      "jsonwebtoken": "^9.0.2",
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1",
+      "jest": "^29.6.4"
+    }
+  }

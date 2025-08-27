@@ -24,7 +24,7 @@ import one.me.sdk.arch.Widget;
 @SourceDebugExtension({"SMAP\nFaqWebViewWidget.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FaqWebViewWidget.kt\none/me/webview/FaqWebViewWidget\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 Tag.kt\nru/ok/tamtam/logger/TagKt\n*L\n1#1,137:1\n1#2:138\n5#3:139\n*S KotlinDebug\n*F\n+ 1 FaqWebViewWidget.kt\none/me/webview/FaqWebViewWidget\n*L\n124#1:139\n*E\n"})
 @SuppressLint({"ValidController"})
 public final class FaqWebViewWidget extends Widget {
-    public static final /* synthetic */ KProperty[] x;
+    public static final  KProperty[] x;
     public final ReadOnlyProperty a = viewBinding(s3b.a);
     public final yh7 b = yh7.d;
     public final wie c = o5a.U();
@@ -37,7 +37,6 @@ public final class FaqWebViewWidget extends Widget {
         x = new KProperty[]{wj6.p(cls, "webView", "getWebView()Lone/me/sdk/uikit/common/views/OneMeWebView;", 0), rae.s(cls, "urlJob", "getUrlJob()Lkotlinx/coroutines/Job;", 0)};
     }
 
-    /* JADX WARNING: type inference failed for: r3v9, types: [kotlin.coroutines.jvm.internal.SuspendLambda, kotlin.jvm.functions.Function2] */
     public FaqWebViewWidget() {
         super((Bundle) null, 0, 3, (DefaultConstructorMarker) null);
         qlg qlg = qlg.a;

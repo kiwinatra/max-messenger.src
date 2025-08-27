@@ -1,5 +1,5 @@
 {
-  "name": "gonative-ios",
+  "name": "max-messenger",
   "version": "1.0.2",
   "description": "",
   "scripts": {
@@ -9,6 +9,6 @@
     "type": "git",
     "url": "(https://github.com/gonativeio/gonative-ios.git"
   },
-  "author": "GoNative.io LLC",
+  "author": "GoNative.io LLC" ,
   "license": "https://gonative.io/pricing"
 }
