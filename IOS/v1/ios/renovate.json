@@ -1,0 +1,11 @@
+{
+    "platform": "github",
+    "autodiscover": false,
+    "repositories": ["max-ios-private"],
+    "packageRules": [
+      {
+        "matchManagers": ["cocoapods"],
+        "automerge": false
+      }
+    ]
+  }

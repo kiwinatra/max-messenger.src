@@ -1,0 +1,53 @@
+package defpackage;
+
+import kotlin.ResultKt;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.coroutines.intrinsics.IntrinsicsKt;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.jvm.functions.Function2;
+
+/* renamed from: qle  reason: default package */
+public final class qle extends SuspendLambda implements Function2 {
+    public int a;
+    public final /* synthetic */ rle b;
+    public final /* synthetic */ long c;
+
+    /* JADX INFO: super call moved to the top of the method (can break code semantics) */
+    public qle(rle rle, long j, Continuation continuation) {
+        super(2, continuation);
+        this.b = rle;
+        this.c = j;
+    }
+
+    public final Continuation create(Object obj, Continuation continuation) {
+        return new qle(this.b, this.c, continuation);
+    }
+
+    public final Object invoke(Object obj, Object obj2) {
+        return ((qle) create((d14) obj, (Continuation) obj2)).invokeSuspend(Unit.INSTANCE);
+    }
+
+    public final Object invokeSuspend(Object obj) {
+        Object coroutine_suspended = IntrinsicsKt.getCOROUTINE_SUSPENDED();
+        int i = this.a;
+        rle rle = this.b;
+        if (i == 0) {
+            ResultKt.throwOnFailure(obj);
+            this.a = 1;
+            obj = ((my2) ((qx2) rle.v.getValue())).u(this.c, this);
+            if (obj == coroutine_suspended) {
+                return coroutine_suspended;
+            }
+        } else if (i == 1) {
+            ResultKt.throwOnFailure(obj);
+        } else {
+            throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+        }
+        a32 a32 = (a32) obj;
+        if (a32 != null) {
+            xag.h(rle.Z, ble.b.n1(a32.a));
+        }
+        return Unit.INSTANCE;
+    }
+}

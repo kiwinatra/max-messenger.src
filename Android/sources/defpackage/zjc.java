@@ -1,0 +1,53 @@
+package defpackage;
+
+/* renamed from: zjc  reason: default package */
+public abstract class zjc {
+    public static int tt_active_live_location_in_many_chats = 2131820602;
+    public static int tt_channel_subtitle_count = 2131820603;
+    public static int tt_chat_subtitle_count = 2131820604;
+    public static int tt_control_message_add_error = 2131820605;
+    public static int tt_dates_days = 2131820606;
+    public static int tt_dates_days_last_seen_f = 2131820607;
+    public static int tt_dates_days_last_seen_m = 2131820608;
+    public static int tt_dates_days_last_seen_u = 2131820609;
+    public static int tt_dates_days_last_update = 2131820610;
+    public static int tt_dates_days_live_location_end = 2131820611;
+    public static int tt_dates_days_past = 2131820612;
+    public static int tt_dates_hours = 2131820613;
+    public static int tt_dates_hours_after = 2131820614;
+    public static int tt_dates_hours_last_seen_f = 2131820615;
+    public static int tt_dates_hours_last_seen_m = 2131820616;
+    public static int tt_dates_hours_last_seen_u = 2131820617;
+    public static int tt_dates_hours_last_update = 2131820618;
+    public static int tt_dates_hours_left = 2131820619;
+    public static int tt_dates_hours_live_location_end = 2131820620;
+    public static int tt_dates_hours_past = 2131820621;
+    public static int tt_dates_minutes = 2131820622;
+    public static int tt_dates_minutes_after = 2131820623;
+    public static int tt_dates_minutes_last_seen_f = 2131820624;
+    public static int tt_dates_minutes_last_seen_m = 2131820625;
+    public static int tt_dates_minutes_last_seen_u = 2131820626;
+    public static int tt_dates_minutes_last_update = 2131820627;
+    public static int tt_dates_minutes_left = 2131820628;
+    public static int tt_dates_minutes_live_location_end = 2131820629;
+    public static int tt_dates_minutes_past = 2131820630;
+    public static int tt_dates_months_last_seen_f = 2131820631;
+    public static int tt_dates_months_last_seen_m = 2131820632;
+    public static int tt_dates_months_last_seen_u = 2131820633;
+    public static int tt_dates_months_last_update = 2131820634;
+    public static int tt_dates_months_live_location_end = 2131820635;
+    public static int tt_dates_months_past = 2131820636;
+    public static int tt_dates_weeks_last_seen_f = 2131820637;
+    public static int tt_dates_weeks_last_seen_m = 2131820638;
+    public static int tt_dates_weeks_last_seen_u = 2131820639;
+    public static int tt_dates_weeks_last_update = 2131820640;
+    public static int tt_dates_weeks_live_location_end = 2131820641;
+    public static int tt_dates_weeks_past = 2131820642;
+    public static int tt_in_chat = 2131820643;
+    public static int tt_live_location_members_with_me = 2131820644;
+    public static int tt_live_location_members_without_me = 2131820645;
+    public static int tt_new_messages = 2131820646;
+    public static int tt_notification_text_hidden_content = 2131820647;
+    public static int tt_privacy_restricted_error = 2131820648;
+    public static int tt_summary_messages = 2131820649;
+}

@@ -1,0 +1,7 @@
+
+==============================================
+
+Please open the xcworkspace in Xcode to load the complete iOS project with all plugins. 
+You will NOT need to use the xcodeproj file.
+
+

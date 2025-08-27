@@ -1,0 +1,53 @@
+package defpackage;
+
+/* renamed from: mra  reason: default package */
+public abstract class mra {
+    public static final int A = dlc.media_type_picker__close_dialog__decline;
+    public static final int B = dlc.media_type_picker__close_dialog__title;
+    public static final int C = dlc.media_type_picker__contact;
+    public static final int D = dlc.media_type_picker__file;
+    public static final int E = dlc.media_type_picker__file_dialog__decline;
+    public static final int F = dlc.media_type_picker__file_dialog__from_file_manager;
+    public static final int G = dlc.media_type_picker__file_dialog__from_gallery;
+    public static final int H = dlc.media_type_picker__file_dialog__title;
+    public static final int I = dlc.media_type_picker__gallery;
+    public static final int J = dlc.media_type_picker__input_hint;
+    public static final int K = dlc.media_type_picker__money;
+    public static final int L = dlc.media_type_picker__permissions_dialog__button;
+    public static final int M = dlc.media_type_picker__permissions_dialog__camera_permission;
+    public static final int N = dlc.media_type_picker__permissions_dialog__gallery_camera_subtitle;
+    public static final int O = dlc.media_type_picker__permissions_dialog__gallery_camera_title;
+    public static final int P = dlc.media_type_picker__permissions_dialog__gallery_subtitle;
+    public static final int Q = dlc.media_type_picker__permissions_dialog__gallery_title;
+    public static final int R = dlc.media_type_picker__permissions_dialog__subtitle;
+    public static final int S = dlc.media_type_picker__permissions_dialog__title;
+    public static final int T = dlc.media_type_picker__place;
+    public static final int U = dlc.media_type_picker__snack_file;
+    public static final int V = dlc.media_type_picker__snack_media;
+    public static final int a = dlc.chat_screen__cancel;
+    public static final int b = dlc.chat_screen__leave_chat_action;
+    public static final int c = dlc.chat_screen__leave_chat_title;
+    public static final int d = dlc.chat_screen__remove_chat_action;
+    public static final int e = dlc.chat_screen__remove_chat_title;
+    public static final int f = dlc.chat_screen__search_result_down_button_accessibility;
+    public static final int g = dlc.chat_screen__search_result_not_found;
+    public static final int h = dlc.chat_screen__search_result_success;
+    public static final int i = dlc.chat_screen__search_result_up_button_accessibility;
+    public static final int j = dlc.chat_screen__start_chat_with_bot;
+    public static final int k = dlc.chat_screen_channel_search_hint;
+    public static final int l = dlc.chat_screen_file_too_big_caption;
+    public static final int m = dlc.chat_screen_file_too_big_title;
+    public static final int n = dlc.chat_screen_join_channel;
+    public static final int o = dlc.chat_screen_join_chat;
+    public static final int p = dlc.chat_screen_leave_chat;
+    public static final int q = dlc.chat_screen_remove_chat;
+    public static final int r = dlc.chat_screen_search_hint;
+    public static final int s = dlc.chat_screen_status_mute_chat;
+    public static final int t = dlc.chat_screen_status_subscribe_chat;
+    public static final int u = dlc.chat_screen_status_unmute_chat;
+    public static final int v = dlc.chat_screen_unblock_contact;
+    public static final int w = dlc.media_bar_restricted_media_action;
+    public static final int x = dlc.media_bar_restricted_media_subtitle;
+    public static final int y = dlc.media_bar_restricted_media_title;
+    public static final int z = dlc.media_type_picker__close_dialog__accept;
+}
