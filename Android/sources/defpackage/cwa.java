@@ -1,0 +1,53 @@
+package defpackage;
+
+/* renamed from: cwa  reason: default package */
+public abstract class cwa {
+    public static final int A = chc.messages_list_context_action_save_to_gallery;
+    public static final int B = chc.messages_list_context_action_select;
+    public static final int C = chc.messages_list_context_action_unpin;
+    public static final int D = chc.messages_list_context_actions_view_type;
+    public static final int E = chc.messages_list_context_content_container;
+    public static final int F = chc.messages_list_context_member_view_type;
+    public static final int G = chc.messages_list_context_members_member_cell;
+    public static final int H = chc.messages_list_context_members_member_reaction;
+    public static final int I = chc.messages_list_context_reactions_container;
+    public static final int J = chc.messages_list_item_alias;
+    public static final int K = chc.messages_list_item_date;
+    public static final int L = chc.messages_list_item_keyboard_buttons;
+    public static final int M = chc.messages_list_item_single_image;
+    public static final int N = chc.messages_list_item_text;
+    public static final int O = chc.messages_list_item_title;
+    public static final int P = chc.messages_list_item_video_duration;
+    public static final int Q = chc.messages_list_link_context_menu_action_copy_link;
+    public static final int R = chc.messages_list_link_context_menu_action_open_link;
+    public static final int S = chc.messages_list_link_context_menu_action_open_profile;
+    public static final int T = chc.messages_list_recycler_view;
+    public static final int U = chc.messages_list_scroll_btn;
+    public static final int V = chc.messages_list_share_contact_for_bot_action;
+    public static final int a = chc.chat_screen_message_send_error_delete_action;
+    public static final int b = chc.chat_screen_message_send_error_resend_action_multi;
+    public static final int c = chc.chat_screen_message_send_error_resend_action_solo;
+    public static final int d = chc.messages_list_chat_description_view_id;
+    public static final int e = chc.messages_list_chat_description_view_type;
+    public static final int f = chc.messages_list_confirm_cancel;
+    public static final int g = chc.messages_list_confirm_complaint_extremism;
+    public static final int h = chc.messages_list_confirm_complaint_fake;
+    public static final int i = chc.messages_list_confirm_complaint_other;
+    public static final int j = chc.messages_list_confirm_complaint_porno;
+    public static final int k = chc.messages_list_confirm_complaint_spam;
+    public static final int l = chc.messages_list_confirm_complaint_threat;
+    public static final int m = chc.messages_list_confirm_delete;
+    public static final int n = chc.messages_list_confirm_delete_for_all;
+    public static final int o = chc.messages_list_confirm_pin_with_notify;
+    public static final int p = chc.messages_list_confirm_pin_without_notify;
+    public static final int q = chc.messages_list_context_action_copy;
+    public static final int r = chc.messages_list_context_action_copy_photo;
+    public static final int s = chc.messages_list_context_action_delete;
+    public static final int t = chc.messages_list_context_action_delete_for_all;
+    public static final int u = chc.messages_list_context_action_edit;
+    public static final int v = chc.messages_list_context_action_forward;
+    public static final int w = chc.messages_list_context_action_mark_as_unread;
+    public static final int x = chc.messages_list_context_action_pin;
+    public static final int y = chc.messages_list_context_action_reply;
+    public static final int z = chc.messages_list_context_action_report;
+}

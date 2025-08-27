@@ -1,0 +1,4 @@
+package com.google.android.exoplayer2.upstream;
+
+public final class UdpDataSource$UdpDataSourceException extends DataSourceException {
+}
